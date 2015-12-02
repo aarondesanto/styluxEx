@@ -1,3 +1,50 @@
-.thisdiv {
-  background-color: #f00;
+body {
+  background-color: #ff7951;
+}
+nav {
+  background-color: #59391d;
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+nav ul {
+  margin: 10 auto;
+}
+nav ul li {
+  display: inline-block;
+  width: 30%;
+  list-style: none;
+  font-size: 2em;
+  text-align: center;
+  color: #fff;
+}
+nav ul li:hover {
+  background-color: #cf9a6b;
+}
+main {
+  width: 700px;
+  margin: 10px auto 0;
+  padding: 10px 0;
+  background-color: #aaa;
+  -webkit-box-shadow: 2px 2px 5px #555;
+  -moz-box-shadow: 2px 2px 5px #555;
+  box-shadow: 2px 2px 5px #555;
+}
+article {
+  width: 500px;
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  -webkit-box-shadow: 2px 2px 5px #555;
+  -moz-box-shadow: 2px 2px 5px #555;
+  box-shadow: 2px 2px 5px #555;
+}
+article h1 {
+  border-bottom: 1px solid #fff;
+  text-align: center;
+}
+article p {
+  text-align: center;
 }

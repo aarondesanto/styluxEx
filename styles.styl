@@ -1,4 +1,49 @@
-colorRed = #F00;
+navcolor = #59391D;
+maincolor = #aaaaaa;
+textcolor = #fff;
+halftran = rgba(0, 0, 0, 0.5);
+box-shadow()
+  -webkit-box-shadow: arguments
+  -moz-box-shadow: arguments
+  box-shadow: arguments
 
-.thisdiv
-  background-color colorRed
+body
+  background-color #FF7951
+
+nav
+  background-color navcolor
+  display inline-block
+  position relative
+  bottom 0
+  width 100%
+  ul
+    margin 10 auto
+    li
+      display inline-block
+      width 30%
+      list-style none
+      font-size 2em
+      text-align center
+      color textcolor
+    li:hover
+      background-color lighten(navcolor, 50%)
+
+main
+  width 700px
+  margin 10px auto 0
+  padding 10px 0
+  background-color #AAAAAA
+  box-shadow 2px 2px 5px #555
+
+article
+  width 500px
+  margin 0 auto
+  padding 0
+  background-color halftran
+  color textcolor
+  box-shadow 2px 2px 5px #555
+  h1
+    border-bottom 1px solid textcolor
+    text-align center
+  p
+    text-align center
